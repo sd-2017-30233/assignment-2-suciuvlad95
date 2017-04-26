@@ -1,0 +1,48 @@
+package Model;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+
+import com.itextpdf.text.*;
+import com.itextpdf.text.pdf.PdfWriter;
+
+
+
+public class PdfReport implements Report {
+	
+    private static final String FILE_NAME = "reportInPdf.pdf";
+    
+    public void generate(ArrayList<String> titles) {
+        Document doc = new Document();
+
+        try {
+
+            PdfWriter.getInstance(document, new FileOutputStream(new File(FILE_NAME)));
+
+          
+            document.open();
+
+            Paragraph par = new Paragraph();
+            par.add("BOOKS OUT OF STOCK");
+           
+
+            doc.add(par);
+            for (int i=0;i<titles.size();i++) {
+                Paragraph p2 = new Paragraph();
+                p2.add(titles.get(i)); //no alignment
+                document.add(p2);
+            }
+            document.close();
+            System.out.println("Done");
+
+        } catch (FileNotFoundException | DocumentException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+}
