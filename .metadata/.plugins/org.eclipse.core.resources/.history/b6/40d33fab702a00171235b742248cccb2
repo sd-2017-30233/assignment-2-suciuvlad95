@@ -1,8 +1,0 @@
-package Model;
-
-import java.util.ArrayList;
-import java.io.FileNotFoundException;
-
-public interface Report {
-
-}
