@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><users>
+	<user id="1">
+	<username>Vlad</username>
+	<password>123</password>
+	<type>admin</type>
+	</user>
+	<user id="2">
+	<username>Andrei</username>
+	<password>dinamo</password>
+	<type>user</type>
+	</user>
+	
+<user><username>Robi</username><password>parola</password><type>user</type></user><user><username>Cos</username><password>steaua</password><type>admin</type></user></users>
