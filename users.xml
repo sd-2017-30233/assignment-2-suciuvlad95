@@ -10,4 +10,6 @@
 	<type>user</type>
 	</user>
 	
-<user><username>Robi</username><password>parola</password><type>user</type></user><user><username>Cos</username><password>steaua</password><type>admin</type></user></users>
+<user><username>Messi</username><password>pac</password><type>invalid</type></user><user>
+<username>Cos</username><password>steaua</password><type>admin</type></user><user>
+<username>viki</username><password>sdasd</password><type>admin</type></user></users>

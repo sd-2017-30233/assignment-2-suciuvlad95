@@ -2,25 +2,25 @@
 <books>
 
 	<book id="1">
-		<title>Ion</title>
-		<author>Liviu Rebreanu</author>
+		<title>Muntele vrajit</title>
+		<author>Thomas Mann</author>
 		<genre>realism</genre>
-		<quantity>10</quantity>
-		<price>30</price>
+		<quantity>0</quantity>
+		<price>35</price>
 	</book>	
 	<book id="2">
-		<title>Dune</title>
-		<author>Frank Herbert</author>
-		<genre>real</genre>
-		<quantity>12</quantity>
-		<price>40</price>
+		<title>Pas cu pas</title>
+		<author>Klaus Iohanis</author>
+		<genre>politic</genre>
+		<quantity>15</quantity>
+		<price>43</price>
 	</book>	
 	<book id="3">
-		<title>Maitreyi</title>
-		<author>Mircea Eliade</author>
+		<title>Ultima nopte de dragoste</title>
+		<author>Camil Petrescu</author>
 		<genre>autobiographic</genre>
-		<quantity>12</quantity>
-		<price>35</price>
+		<quantity>20</quantity>
+		<price>25</price>
 	</book>	
 	
 
